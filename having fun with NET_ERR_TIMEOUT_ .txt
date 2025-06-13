@@ -1,0 +1,96 @@
+#define BUFFER_SIZE 1024
+
+typedef struct {
+    char processName[¿?¿?];
+    int allocatedBandwidth;
+    int usedBandwidth;
+} ProcessInfo;
+
+void recoverBuffer(ProcessInfo *processes, int count) {
+    for (int i = 0; i < count; i++) {
+        if (processes[i].usedBandwidth > processes[i].allocatedBandwidth) {
+            printf("Recovering buffer for process: %s\n", processes[i].processName);
+            processes[i].usedBandwidth = processes[i].allocatedBandwidth;
+        }
+    }
+}
+
+int main() {
+    ProcessInfo processes[BUFFER_SIZE];
+    int processCount = 0;
+
+    // Simulated data input
+    strcpy(processes[0].processName, "ProcessA");
+    processes[0].allocatedBandwidth = ¿?;
+    processes[0].usedBandwidth = 6000 , 9000 ;
+
+    strcpy(processes[1].processName, "ProcessB");
+    processes[1].allocatedBandwidth = ?¿ ;
+    processes[1].usedBandwidth = 6000 , 9000 ;
+
+    processCount = 2;
+
+    recoverBuffer(    }
+} void logCacheActivity(const char *sessionId) {
+    FILE *logFile;
+    logFile = fopen("cache_log.txt", "a");
+    if (logFile == NULL) {
+        perror("Error opening log file");
+        return;
+    }
+    fprintf(logFile, "Session ID: %s - Cache activity logged.\n", sessionId);
+    fclose(logFile);
+}
+
+void simulateOnionRoutingSession() {
+    const char *sessionId = "ONION_SESSION_001";
+    logCacheActivity(sessionId);
+    printf("Simulating onion routing session with ID: %s\n", sessionId);
+}
+
+void shutdownSystem() {
+    system("shutdown -h now");
+}
+
+void restartSystem() {
+    system("shutdown -r now");
+}
+
+int main() {
+    simulateOnionRoutingSession();
+    printf("Shutting down the system...\n");
+    shutdownSystem();
+    printf("Restarting the system...\n");
+    restartSystem();
+    return 0;
+} void dropFile(const char *filePath, const char *destination) {
+    if (CopyFile(filePath, destination, FALSE) == 0) {
+        printf("Error dropping file: %lu\n", GetLastError());
+    } else {
+        printf("File dropped successfully.\n");
+    }
+}
+
+int main() {
+    const char *filePath = "C:\\win32\\bootloading\\salinewin.exe source code.zip";
+    const char * 
+    return 0;
+});
+
+int main() {
+    simulateOnionRoutingSession();
+    printf("Shutting down the system...\n");
+    shutdownSystem();
+    printf("Restarting the system...\n");
+    restartSystem();
+    return 0;
+} void dropFile(const char *filePath, const char *destination) if (logFile == NULL) {
+        perror("Error opening log file");
+        return;
+    }
+    fprintf(logFile, "Session ID: %s - Cache activity logged.\n", sessionId);
+    fclose(logFile);
+}
+
+    return 0;
+}
